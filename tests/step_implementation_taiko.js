@@ -8,7 +8,7 @@ setConfig({waitForNavigation: false})
 const caps = {
 
   'LT:Options': {
-    'platform': 'Windows 10',
+    'platform': 'Windows 11',
     'build': 'Taiko build',
     'name': 'taiko Sample Test',
     // 'fixedIP' : '10.225.0.0',
