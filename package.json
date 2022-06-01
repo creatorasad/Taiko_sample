@@ -1,0 +1,18 @@
+{
+  "name": "gauge-taiko-template",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test": "gauge run specs/*.spec",
+    "test-parallel": "gauge run --parallel -n=10 ./specs/* --verbose",
+    "test-parallel-single": "gauge run --parallel -n=10 ./specs/* --verbose"
+  },
+  "dependencies": {
+    "@getgauge/cli": "latest",
+    "assert": "^2.0.0",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "taiko": "1.2.8",
+    "taiko-lambdatest": "^0.1.9"
+  }
+}
